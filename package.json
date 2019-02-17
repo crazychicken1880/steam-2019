@@ -1,0 +1,11 @@
+{
+  "name": "steam-2019",
+  "version": "1.0.0",
+  "description": "my alexa skill project for the 2019 steam expo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miles.c.gaffney@gmail.com",
+  "license": "MIT"
+}
