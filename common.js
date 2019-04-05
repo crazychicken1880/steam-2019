@@ -1,7 +1,12 @@
 function time_to_seconds(time){
     parts = time.split(":")
-    minutes = Number.parseInt(parts[0])
-    seconds = Number.parseFloat(parts[1])
+    if(parts.length === 1){
+        minutes = 0
+        seconds = Number.parseFloat(parts[0])
+    } else {
+        minutes = Number.parseInt(parts[0])
+        seconds = Number.parseFloat(parts[1])
+    }
     return 60 * minutes + seconds
 }
 

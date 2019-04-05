@@ -1,0 +1,2 @@
+This is the o.m.p.a. swim skill. You can use it to ask three questions. question 1 is what is the medal time for a certain event. question 2 is 
+what is the medal for a given time in a particular event. question 3 is how much time to pop to reach a particular medal time. 
